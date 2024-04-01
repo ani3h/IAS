@@ -1,0 +1,15 @@
+comb M[500];
+n M[501];
+r M[502];
+factR M[503];
+rem M[504];
+
+LOAD M[502]
+FACT M[502];
+STOR M[503];
+LOAD M[501];
+PERM M[502];
+DIV M[503];
+STOR M[504];
+LOAD MQ;
+STOR M[500];
